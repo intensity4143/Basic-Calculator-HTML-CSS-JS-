@@ -47,6 +47,12 @@
     font-size: 1.5rem;
     /* font-weight: bold; */
     box-sizing: border-box;
+    transition: all 0.12s ease-in-out;
+  }
+  .but:active{
+        transform: scale(0.94);
+        box-shadow: inset 2px 2px 2px #414141,
+        inset -2px -2px 2px #414141;
   }
   .operator {
     background-color: blue;
