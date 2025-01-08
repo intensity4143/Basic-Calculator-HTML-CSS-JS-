@@ -50,7 +50,7 @@
     transition: all 0.12s ease-in-out;
   }
   .but:active{
-        transform: scale(0.94);
+        transform: scale(0.95);
         box-shadow: inset 2px 2px 2px #414141,
         inset -2px -2px 2px #414141;
   }
