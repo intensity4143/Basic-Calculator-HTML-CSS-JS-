@@ -23,5 +23,6 @@ buttons.forEach((element) => {
       input.value += e.target.id;
       ans += e.target.id;
     }
+    input.scrollLeft = input.scrollWidth;
   });
 });
